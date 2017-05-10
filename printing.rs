@@ -23,4 +23,8 @@ fn main() {
     println!("{part1} {part2}",
             part1="Time is an illusion.",
             part2="Lunchtime doubly so.");
+    
+    // Right-align text with a specified width. This will output
+    // 5 whitepaces and then number 42, total width is 6.
+    println!("Again I repeat, the answer to life the universe and everything is: {number:>width$}", number=42, width=6);
 }
