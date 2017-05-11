@@ -27,4 +27,10 @@ fn main() {
     // Right-align text with a specified width. This will output
     // 5 whitepaces and then number 42, total width is 6.
     println!("Again I repeat, the answer to life the universe and everything is: {number:>width$}", number=42, width=6);
+    
+    // Adding 0s to answer to everything.
+    println!("Padding answer to everything with 0s : {number:>0width$}", number=42, width=6);
+
+    let wise_words = "don't panic!!!";
+    println!("While learning rust!, as Adam Douglas would have said: {}", wise_words.to_uppercase());
 }
