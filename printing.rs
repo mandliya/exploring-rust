@@ -31,6 +31,13 @@ fn main() {
     // Adding 0s to answer to everything.
     println!("Padding answer to everything with 0s : {number:>0width$}", number=42, width=6);
 
+    // Finally some encouraging words!
     let wise_words = "don't panic!!!";
     println!("While learning rust!, as Adam Douglas would have said: {}", wise_words.to_uppercase());
+
+    // Rust by example activities
+    // Add a println! macro that prints: Pi is roughly 3.142 by controlling the number of decimal places shown.
+    // For the purposes of this exercise, use let pi = 3.141592 as an estimate for Pi.
+    let pi = 3.141592;
+    println!("Pi is roughly {:.*}", 3, pi);
 }
