@@ -7,3 +7,4 @@ Exploring language rust through official documents and "rust by example" book.
 | [hello_world.rs](hello_world.rs) | The hello world of Rust! |
 | [printing.rs](printing.rs) | The hows/ways of formatted printing in Rust |
 | [fmt_debug.rs](fmt_debug.rs)| Example of fmt::Debug trait.|
+| [fmt_display.rs](fmt_display.rs)| Example of fmt::Display trait.| 
