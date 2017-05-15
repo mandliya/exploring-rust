@@ -19,6 +19,20 @@ impl Display for City {
     }
 }
 
+#[derive(Debug)]
+struct Color {
+    red: u8,
+    green: u8,
+    blue: u8
+}
+
+impl Display for Color {
+     fn fmt(&self, f : &mut Formatter) -> fmt::Result {
+         write!(f, "R: 0x{:X}, G: 0x{:X}, B: 0x{:X}",
+            self.red, self.green, self.blue)
+     }
+}
+
 fn main() {
     for city in [
         City { name: "Seattle", lat: 47.608013, lon: -122.335167 }, 
@@ -27,4 +41,23 @@ fn main() {
     ].iter() {
         println!("{}", *city);
     }
+
+    for color in [
+        Color { red:56, green: 255, blue: 90 },
+        Color { red:67, green: 12, blue: 255},
+        Color { red:123, green: 34, blue: 134},
+    ].iter() {
+        println!("{}", *color);
+    }
+
+    println!("\nWith Debug:\n");
+
+    for color in [
+        Color { red:56, green: 255, blue: 90 },
+        Color { red:67, green: 12, blue: 255},
+        Color { red:123, green: 34, blue: 134},
+    ].iter() {
+        println!("{:?}", *color);
+    }
+
 }
