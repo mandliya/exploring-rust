@@ -9,3 +9,4 @@ Exploring language rust through official documents and "rust by example" book.
 | [fmt_debug.rs](fmt_debug.rs)| Example of fmt::Debug trait.|
 | [fmt_display.rs](fmt_display.rs)| Example of fmt::Display trait.|
 | [formatter.rs](formatter.rs) | Example of formatting in Rust. |
+| [literals.rs](literals.rs) | Simple demonstrations of literals in Rust.|
