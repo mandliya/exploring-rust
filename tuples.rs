@@ -1,4 +1,5 @@
 
+use std::fmt;
 // reverse a tuple of int and bool
 //
 fn reverse(pair: (i32, bool)) -> (bool, i32) {
@@ -8,6 +9,13 @@ fn reverse(pair: (i32, bool)) -> (bool, i32) {
 
 #[derive(Debug)]
 struct Matrix(f32, f32, f32, f32);
+
+impl fmt::Display for Matrix {
+    fn fmt(&self, f : &mut fmt::Formatter) -> fmt::Result {
+        writeln!(f, "( {:?} )", (self.0, self.1))?;
+        writeln!(f, "( {:?} )", (self.2, self.3))
+    }
+}
 
 fn main() {
     let pair = (42, true);
@@ -24,5 +32,6 @@ fn main() {
     println!("Tuple of tuples[0][1]: {:?}", (tuple_of_tuples.0).1);
 
     let matrix = Matrix(1.1, 1.2, 2.1, 2.2);
-    println!("Matrix Debug: {:?}", matrix);
+    println!("Matrix Debug:   {:?}", matrix);
+    println!("Matrix Display:\n{}", matrix);
 }
