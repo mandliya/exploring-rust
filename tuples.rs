@@ -6,7 +6,8 @@ fn reverse(pair: (i32, bool)) -> (bool, i32) {
     (boolean, integer)
 }
 
-
+#[derive(Debug)]
+struct Matrix(f32, f32, f32, f32);
 
 fn main() {
     let pair = (42, true);
@@ -21,4 +22,7 @@ fn main() {
     println!("Tuple of tuples: {:?}", tuple_of_tuples);
     println!("Tuple of tuples[0]: {:?}", tuple_of_tuples.0);
     println!("Tuple of tuples[0][1]: {:?}", (tuple_of_tuples.0).1);
+
+    let matrix = Matrix(1.1, 1.2, 2.1, 2.2);
+    println!("Matrix Debug: {:?}", matrix);
 }
