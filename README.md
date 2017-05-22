@@ -12,3 +12,4 @@ Exploring language rust through official documents and "rust by example" book.
 | [literals.rs](literals.rs) | Simple demonstrations of literals in Rust.|
 | [tuples.rs](tuples.rs) | Example of a Tuple in Rust.|
 | [array_slices.rs](array_slices.rs) | Array and slices in Rust. |
+| [structs.rs](structs.rs) | Structs in Rust. |
