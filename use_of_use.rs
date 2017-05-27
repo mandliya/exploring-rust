@@ -1,4 +1,5 @@
 // Hiding unused code for now.
+//
 #![allow(dead_code)]
 
 enum IcecreamTypes {
