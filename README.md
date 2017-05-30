@@ -15,4 +15,5 @@ Exploring language rust through official documents and "rust by example" book.
 | [structs.rs](structs.rs) | Structs in Rust. |
 | [enums.rs](enums.rs) | Enums in Rust. |
 | [use_of_use.rs](use_of_use.rs)| Short-circuiting manual scoping using use. |
-| [linked_list.rs](linked_list.rs)| Linked-list in Rust. |
+| [linked_list.rs](linked_list.rs)| A simple Linked-list in Rust. |
+| [constants.rs](constants.rs)| A simple example demonstrating constants in Rust.|
