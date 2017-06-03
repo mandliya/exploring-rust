@@ -18,4 +18,4 @@ Exploring language rust through official documents and "rust by example" book.
 | [linked_list.rs](linked_list.rs)| A simple Linked-list in Rust. |
 | [constants.rs](constants.rs)| A simple example demonstrating constants in Rust.|
 | [the_matrix.rs](the_matrix.rs)| A simple example of variable binding in Rust using 'the matrix' movie references.|
-| [Snufflifors_Spell.rs](Snufflifors_Spell.rs) | Understanding mutability in Rust using Harry Potter spell. |
+| [Snufflifors_Spell.rs](Snufflifors_Spell.rs) | Understanding mutability in Rust using Harry Potter spell |
