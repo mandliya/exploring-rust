@@ -1,6 +1,7 @@
 /*
  * This program illustrates use of casting in Rust.
  * Unlike C/C++ there is no implicit casting, however, we can do explicit casting using `as`
+ * This example also shows what happens when we do unsigned to signed or signed to unsigned casting
  */
 
  // Supress warning for overflow casts
