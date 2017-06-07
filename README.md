@@ -21,3 +21,4 @@ Exploring language rust through official documents and "rust by example" book.
 | [Snufflifors_Spell.rs](Snufflifors_Spell.rs) | Understanding mutability in Rust using Harry Potter spell. |
 | [scope_and_shadowing.rs](scope_and_shadowing.rs) | Scope and shadowing of variable bindings in Rust.|
 | [initialize_later.rs](initialize_later.rs) | Late initialization of variable bindings in Rust.|
+| [casting.rs](casting.rs)|Examples of casting in Rust. |
