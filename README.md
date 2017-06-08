@@ -22,3 +22,4 @@ Exploring language rust through official documents and "rust by example" book.
 | [scope_and_shadowing.rs](scope_and_shadowing.rs) | Scope and shadowing of variable bindings in Rust.|
 | [initialize_later.rs](initialize_later.rs) | Late initialization of variable bindings in Rust.|
 | [casting.rs](casting.rs)|Examples of casting in Rust. |
+| [literal_annotation.rs](literal_annotation.rs)| Numeric literals type annotation in Rust. | 
