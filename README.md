@@ -24,4 +24,6 @@ Exploring language rust through official documents and "rust by example" book.
 | [casting.rs](casting.rs)|Examples of casting in Rust. |
 | [literal_annotation.rs](literal_annotation.rs)| Numeric literals type annotation in Rust. | 
 | [type_inference.rs](type_inference.rs) | Type inference in Rust. |
-| [alias.rs](alias.rs) | alias in Rust. |
+| [alias.rs](alias.rs) | alias in Rust.|
+| [expression.rs](expressions.rs)| block expressions and simple expressions in Rust.|
+
