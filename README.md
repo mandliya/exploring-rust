@@ -27,4 +27,5 @@ Exploring language rust through official documents and "rust by example" book.
 | [alias.rs](alias.rs) | alias in Rust.|
 | [expression.rs](expressions.rs)| block expressions and simple expressions in Rust.|
 | [if_else.rs](if_else.rs) | if else flow control example in Rust.|
+| [Option.rs](Option.rs) | Option<T> enum in Rust, to avoid null dereferencing. |
 
